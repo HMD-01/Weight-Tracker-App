@@ -1,0 +1,45 @@
+body {
+    background-image: url("/images/weight-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    /* position: relative; */
+    width: 100vw;	
+    height: 300px;
+    text-align: center;
+    /* background: url(/images/header.jpg);
+    color: #fff; */
+  }
+  
+  
+.signUp-form, .loginLink, .login-Form, .signUpLink{
+    display: block;
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+@media (max-width:600px){
+    .signUp-form, .loginLink, .login-Form, .signUpLink{
+        margin: 0 auto;
+        max-width: 75%;
+    }
+
+}
+
+.login-Form{
+    margin-top: 20%;
+}
+
+input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+hr{
+    font-size: x-large;
+    width: 30%;
+    color: orange;
+    border: 0.1em solid orange;
+}
