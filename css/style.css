@@ -1,35 +1,27 @@
-body {
-    background-image: url("/images/weight-background.jpg");
-    background-repeat: no-repeat;
+body{
+    background: url(/images/weight-background.jpg) no-repeat center center fixed;
+    /* background: linear-gradient(to bottom, purple 0%, pink 100%) no-repeat center center fixed; */
     background-size: cover;
+    opacity: 1;
+    color: #fff;
 }
 
-.header {
-    /* position: relative; */
-    width: 100vw;	
-    height: 300px;
+.signUp-form, .login-form{
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     text-align: center;
-    /* background: url(/images/header.jpg);
-    color: #fff; */
-  }
-  
-  
-.signUp-form, .loginLink, .login-Form, .signUpLink{
-    display: block;
-    max-width: 45%;
+    border-radius: 5px;
+    padding: 20px;
+    opacity: 0.8;
+    max-width: 55%;
     margin: 0 auto;
 }
 
-@media (max-width:600px){
-    .signUp-form, .loginLink, .login-Form, .signUpLink{
-        margin: 0 auto;
-        max-width: 75%;
-    }
-
-}
-
-.login-Form{
-    margin-top: 20%;
+.loginLink{
+    margin: 0 auto;
+    text-align: center;
 }
 
 input{
